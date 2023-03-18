@@ -17,3 +17,7 @@ a,b=2,20
 
 evens=teven.evens_between(a,b)
 print(evens)//output is [2,4,6,8,10,12,14,16,18,20]
+
+//similarly for odd and prime numbers
+print(teven.odds_between(a,b)) //output is [3, 5, 7, 9, 11, 13, 15, 17, 19]
+print(teven.primes_between(a,b)) //output is [2,3,5,7,11,13,17,19]

@@ -15,7 +15,7 @@ def odds_between(start,end):
                 odds.append(i)
     return odds
 
-def prime_between(start,end):
+def primes_between(start,end):
     primes=[]
     if(start<end and start>0 and end>0):
         for num in range(start, end + 1):
